@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">
+    <h1 class="">
         <?php
             include 'signup.php';
         ?>

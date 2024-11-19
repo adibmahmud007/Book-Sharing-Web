@@ -39,7 +39,7 @@
           </div>
 
           <div class="mt-8">
-            <button type="button" class="py-4 px-8 text-sm font-semibold text-white tracking-wide bg-blue-600 hover:bg-blue-700 focus:outline-none">
+            <button type="button" class="py-4 px-8 text-sm font-semibold rounded-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
               Create an account
             </button>
           </div>

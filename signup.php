@@ -43,7 +43,7 @@
               Create an account
             </button>
           </div>
-          <p class="text-lg text-gray-800 mt-8">Already have an account? <a href="javascript:void(0);" class="text-green-700 font-bold hover:cursor-pointer ml-1">Login here</a></p>
+          <p class="text-lg text-gray-800 mt-8">Already have an account? <a href="signin.php" class="text-green-700 font-bold hover:cursor-pointer ml-1">Login here</a></p>
         </form>
 
       </div>

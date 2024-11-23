@@ -11,24 +11,24 @@
 <body>
 
   <div class="  font-[sans-serif] flex h-screen">
-    <img src="./assets/Page Swap.png" class="w-full h-fit  relative translate-y-[-80px] " alt="Dining Experience" />
+    <img src="./assets/Page Swap.png" class="md:w-full md:h-fit h-[800px] w-[700px]  md:relative translate-y-[-80px] " alt="Dining Experience" />
 
-    <div class="min-h-screen flex fle-col items-center justify-center px-10 absolute">
-      <div class="grid lg:grid-cols-2 pl-12 mt-3 items-center gap-6 max-w-7xl max-lg:max-w-xl w-full">
+    <div class="min-h-screen flex fle-col items-center justify-center px-3 md:px-10 absolute">
+      <div class="grid lg:grid-cols-2 md:pl-12 mt-3 items-center gap-6 max-w-7xl max-lg:max-w-xl w-full">
         <form class="lg:max-w-md w-full">
           <h3 class="text-gray-800 text-5xl font-extrabold mb-6">Registration</h3>
           <div class="space-y-6">
             <div>
               <label class="text-gray-800 text-lg mb-2 block">Name</label>
-              <input name="name" type="text" class="bg-gray-100 w-[480px] text-gray-800 px-5 py-4 rounded-lg focus:bg-transparent outline-black transition-all text-lg font-semibold" placeholder="Enter name" />
+              <input name="name" type="text" class="bg-gray-100 w-[430px] md:w-[480px] text-gray-800 px-5 py-4 rounded-lg focus:bg-transparent outline-black transition-all text-lg font-semibold" placeholder="Enter name" />
             </div>
             <div>
               <label class="text-gray-800 text-lg mb-2 block">Email</label>
-              <input name="email" type="text" class="bg-gray-100 w-[480px] text-gray-900  px-5 py-4 rounded-lg focus:bg-transparent outline-black transition-all text-lg font-semibold" placeholder="Enter email" />
+              <input name="email" type="text" class="bg-gray-100 w-[430px] md:w-[480px] text-gray-900  px-5 py-4 rounded-lg focus:bg-transparent outline-black transition-all text-lg font-semibold" placeholder="Enter email" />
             </div>
             <div>
               <label class="text-gray-800 text-lg mb-2 block">Password</label>
-              <input name="password" type="password" class="bg-gray-100 w-[480px] text-gray-800  px-5 py-4 rounded-lg focus:bg-transparent outline-black transition-all text-lg font-semibold" placeholder="Enter password" />
+              <input name="password" type="password" class="bg-gray-100 w-[430px] md:w-[480px] text-gray-800  px-5 py-4 rounded-lg focus:bg-transparent outline-black transition-all text-lg font-semibold" placeholder="Enter password" />
             </div>
             <!-- <div class="flex items-center">
               <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 shrink-0 border-gray-300 rounded" />

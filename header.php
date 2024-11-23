@@ -7,20 +7,22 @@
     <title>Header</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        var toggleOpen = document.getElementById('toggleOpen');
-        var toggleClose = document.getElementById('toggleClose');
-        var collapseMenu = document.getElementById('collapseMenu');
+        document.addEventListener('DOMContentLoaded', function () {
+            var toggleOpen = document.getElementById('toggleOpen');
+            var toggleClose = document.getElementById('toggleClose');
+            var collapseMenu = document.getElementById('collapseMenu');
 
-        function handleClick() {
-            if (collapseMenu.style.display === 'block') {
-                collapseMenu.style.display = 'none';
-            } else {
-                collapseMenu.style.display = 'block';
+            function handleClick() {
+                if (collapseMenu.style.display === 'block') {
+                    collapseMenu.style.display = 'none';
+                } else {
+                    collapseMenu.style.display = 'block';
+                }
             }
-        }
 
-        toggleOpen.addEventListener('click', handleClick);
-        toggleClose.addEventListener('click', handleClick);
+            toggleOpen.addEventListener('click', handleClick);
+            toggleClose.addEventListener('click', handleClick);
+        });
     </script>
 </head>
 
@@ -28,7 +30,7 @@
     <section>
         <header class='flex border-b py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
             <div class='flex flex-wrap items-center gap-5 w-full'>
-                <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
+                <a href="home.php"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
                 </a>
 
                 <div id="collapseMenu"

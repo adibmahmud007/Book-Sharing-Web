@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <section>
+  <section>
     <div class="font-[sans-serif] bg-white flex items-center justify-center md:h-screen p-4">
       <div class="shadow-[0_2px_16px_-3px_rgba(6,81,237,0.3)] max-w-6xl max-md:max-w-lg rounded-md p-6">
         <a href="javascript:void(0)">
-          
+
           <p class="font-bold text-lg ">PageSwap</p>
         </a>
 
@@ -68,8 +68,8 @@
             </div>
 
             <div class="mt-12">
-              <button type="button" class="w-full shadow-xl py-2.5 px-5 text-sm font-semibold rounded-md text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
-                Sign in
+              <a href="home.php"><button type="button" class="w-full shadow-xl py-2.5 px-5 text-sm font-semibold rounded-md text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+                  Sign in</a>
               </button>
               <p class="text-gray-800 text-sm text-center mt-6">Don't have an account <a href="signup.php" class="text-blue-600 font-semibold hover:underline ml-1 whitespace-nowrap">Register here</a></p>
             </div>
@@ -77,7 +77,7 @@
         </div>
       </div>
     </div>
-    </section>
+  </section>
 </body>
 
 </html>

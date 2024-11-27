@@ -57,7 +57,7 @@
                 </div>
 
                 <div class="flex items-center justify-center">
-                    <a href='javascript:void(0)'><img src="./assets/PageSwap_logo-main.png" alt="logo" class='w-60' /></a>
+                    <a href='javascript:void(0)'><img src="./assets/PageSwap_logo-main .png" alt="logo" class='w-32' /></a>
                 </div>
             </div>
 

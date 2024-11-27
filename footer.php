@@ -56,8 +56,8 @@
                     </ul>
                 </div>
 
-                <div class="flex items-center lg:justify-center">
-                    <a href='javascript:void(0)'><img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class='w-60' /></a>
+                <div class="flex items-center justify-center">
+                    <a href='javascript:void(0)'><img src="./assets/PageSwap_logo-main.png" alt="logo" class='w-60' /></a>
                 </div>
             </div>
 

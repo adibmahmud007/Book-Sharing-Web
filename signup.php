@@ -11,7 +11,7 @@
 <body>
 
   <div class="  font-[sans-serif] flex h-screen">
-    <img src="./assets/Page Swap.png" class="md:w-full md:h-fit h-[800px] w-[700px]  md:relative translate-y-[-80px] " alt="Dining Experience" />
+    <img src="./assets/Page Swap.png" class="md:w-full md:block hidden md:h-fit h-[800px] w-[900px]  md:relative md:translate-y-[-80px] " alt="Dining Experience" />
 
     <div class="min-h-screen flex fle-col items-center justify-center px-3 md:px-10 absolute">
       <div class="grid lg:grid-cols-2 md:pl-12 mt-3 items-center gap-6 max-w-7xl max-lg:max-w-xl w-full">

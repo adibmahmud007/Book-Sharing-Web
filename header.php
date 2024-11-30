@@ -7,7 +7,7 @@
     <title>Header</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             var toggleOpen = document.getElementById('toggleOpen');
             var toggleClose = document.getElementById('toggleClose');
             var collapseMenu = document.getElementById('collapseMenu');
@@ -27,6 +27,12 @@
 </head>
 
 <body>
+    <?php
+    // Get the current file name
+    $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], "/") + 1);
+    // echo $page;
+
+    ?>
     <section>
         <header class='flex border-b py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
             <div class='flex flex-wrap items-center gap-5 w-full'>
@@ -54,19 +60,19 @@
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'>
                             <a href='home.php'
-                                class='lg:hover:text-[#007bff] text-[#007bff] block font-semibold text-[15px]'>Home</a>
+                                class=' <?= $page == "home.php" ? "bg-blue-500 px-3 py-1 bg-opacity-75 rounded-lg font-bold" : "" ?>  text-gray-800  block font-semibold text-[15px]'>Home</a>
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='profile.php'
-                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Profile</a>
+                                class='<?= $page == "profile.php" ? "bg-blue-500 px-3 py-1 bg-opacity-75 rounded-lg font-bold" : "" ?>  text-gray-800  block font-semibold text-[15px]''>Profile</a>
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='postBooks.php'
-                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Post Books</a>
+                                class='<?= $page == "postBooks.php" ? "bg-blue-500 px-3 py-1 bg-opacity-75 rounded-lg font-bold" : "" ?>  text-gray-800  block font-semibold text-[15px]''>Post Books</a>
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Book Requests</a>
+                                class='<?= $page == "bookRequest.php" ? "bg-blue-500 px-3 py-1 bg-opacity-75 rounded-lg font-bold" : "" ?>  text-gray-800  block font-semibold text-[15px]''>Book Requests</a>
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>About</a>
+                                class='<?= $page == "about.php" ? "bg-blue-500 px-3 py-1 bg-opacity-75 rounded-lg font-bold" : "" ?>  text-gray-800  block font-semibold text-[15px]''>About</a>
                         </li>
                     </ul>
                 </div>

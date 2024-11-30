@@ -57,12 +57,6 @@
                             </button>
                         </li>
                         <li>
-                            <button onclick="showContent('Post Books')"
-                                class="text-black hover:text-blue-600 text-[20px] font-semibold block hover:bg-blue-50 rounded px-4 py-2.5 transition-all">
-                                Post Books
-                            </button>
-                        </li>
-                        <li>
                             <button onclick="showContent('See Posted Books')"
                                 class="text-black hover:text-blue-600 text-[20px] font-semibold block hover:bg-blue-50 rounded px-4 py-2.5 transition-all">
                                 See Posted Books
@@ -285,21 +279,20 @@
                     <p class="text-gray-800 text-center font-semibold text-lg mt-6">Click the Button below to delete your Profile</p>
                     <button class="bg-red-700 hover:bg-red-800 px-3 mt-5 py-2 rounded-lg text-normal font-semibold text-white ">Delete Profile</button>
                 </section>
-                <section id="Post Books" class="content-section hidden">
-                    <h1 class="text-2xl font-bold text-gray-700">Schedules</h1>
-                    <p class="text-gray-600 mt-4">View and manage schedules.</p>
-                </section>
                 <section id="See Lend Books" class="content-section hidden">
-                    <h1 class="text-2xl font-bold text-gray-700">Promote</h1>
-                    <p class="text-gray-600 mt-4">Promote your content here.</p>
+                    <h1 class="text-2xl font-bold text-gray-700">See Lend Books</h1>
+                    <div>
+
+                    </div>
                 </section>
                 <section id="See Posted Books" class="content-section hidden">
-                    <h1 class="text-2xl font-bold text-gray-700">Earnings and Taxes</h1>
-                    <p class="text-gray-600 mt-4">Manage your earnings and taxes.</p>
+                    <h1 class="text-2xl font-bold text-gray-700">See Posted Books</h1>
+                    <div>
+
+                    </div>
                 </section>
                 <section id="logout" class="content-section hidden">
-                    <h1 class="text-2xl font-bold text-gray-700">Refunds</h1>
-                    <p class="text-gray-600 mt-4">Manage your refunds here.</p>
+                   
                 </section>
             </main>
         </div>

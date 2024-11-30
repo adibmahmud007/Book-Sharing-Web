@@ -56,14 +56,14 @@
                             <a href='javascript:void(0)'
                                 class='lg:hover:text-[#007bff] text-[#007bff] block font-semibold text-[15px]'>Home</a>
                         </li>
-                        <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Team</a>
+                        <li class='max-lg:border-b max-lg:py-3 px-3'><a href='profile.php'
+                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Profile</a>
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Feature</a>
+                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Post Books</a>
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Blog</a>
+                                class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Book Requests</a>
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
                                 class='lg:hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>About</a>

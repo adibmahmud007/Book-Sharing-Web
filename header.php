@@ -68,7 +68,7 @@
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='postBooks.php'
                                 class='<?= $page == "postBooks.php" ? "bg-blue-500 px-3 py-1 bg-opacity-75 rounded-lg font-bold" : "" ?>  text-gray-800  block font-semibold text-[15px]''>Post Books</a>
                         </li>
-                        <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
+                        <li class='max-lg:border-b max-lg:py-3 px-3'><a href='bookRequest.php'
                                 class='<?= $page == "bookRequest.php" ? "bg-blue-500 px-3 py-1 bg-opacity-75 rounded-lg font-bold" : "" ?>  text-gray-800  block font-semibold text-[15px]''>Book Requests</a>
                         </li>
                         <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'

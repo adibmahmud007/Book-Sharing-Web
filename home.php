@@ -9,11 +9,11 @@
 </head>
 
 <body class="bg-gray-100">
-   <div>
-   <?php
-    include 'header.php';
-    ?>
-   </div>
+    <div>
+        <?php
+        include 'header.php';
+        ?>
+    </div>
     <section class="max-w-[85rem] mx-auto">
         <div class="max-w-[950px] bg-gray-100 max-sm:px-8 px-5 py-12 w-full rounded-md font-[sans-serif]">
             <h1 class="text-gray-800 sm:text-6xl text-3xl font-extrabold">Welcome to PageSwap</h1>
@@ -31,7 +31,7 @@
                     <div class="bg-white shadow-lg rounded-lg p-6 text-center">
                         <img src="./assets/fiction.jpg" alt="Fiction" class="mx-auto w-[250px] h-[300px] mb-4 rounded">
                         <h2 class="text-xl font-semibold text-gray-800 mb-4">Fiction</h2>
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none" onclick="navigateToCategory('Fiction')">View Books</button>
+                        <a href="fiction.php"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none" onclick="navigateToCategory('fiction.php')">View Books</button></a>
                     </div>
 
                     <div class="bg-white shadow-lg rounded-lg p-6 text-center">
@@ -79,12 +79,16 @@
             </div>
 
 
-            <script>
-                function navigateToCategory(category) {
-                    // Replace with the actual navigation logic
-                    alert(`Navigating to ${category} books!`);
+            <!-- <script>
+                function navigateToCategory(page) {
+                    // Construct the URL for navigation
+                    const baseUrl = window.location.origin; // Gets the current domain, e.g., "https://example.com"
+                    const url = `${baseUrl}/${page}`;
+
+                    // Navigate to the constructed URL
+                    window.location.href = url;
                 }
-            </script>
+            </script> -->
         </div>
     </section>
     <div>

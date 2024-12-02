@@ -31,13 +31,13 @@
                     <div class="bg-white shadow-lg rounded-lg p-6 text-center">
                         <img src="./assets/fiction.jpg" alt="Fiction" class="mx-auto w-[250px] h-[300px] mb-4 rounded">
                         <h2 class="text-xl font-semibold text-gray-800 mb-4">Fiction</h2>
-                        <a href="fiction.php"><button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none" onclick="navigateToCategory('fiction.php')">View Books</button></a>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none" onclick="navigateToCategory('fiction')">View Books</button>
                     </div>
 
                     <div class="bg-white shadow-lg rounded-lg p-6 text-center">
                         <img src="./assets/Non_fiction.jpg" alt="Non-Fiction" class="mx-auto w-[250px] h-[300px] mb-4 rounded">
                         <h2 class="text-xl font-semibold text-gray-800 mb-4">Non-Fiction</h2>
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none" onclick="navigateToCategory('Non-Fiction')">View Books</button>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none" onclick="navigateToCategory('nonfiction')">View Books</button>
                     </div>
 
                     <div class="bg-white shadow-lg rounded-lg p-6 text-center">
@@ -79,16 +79,18 @@
             </div>
 
 
-            <!-- <script>
+            <script>
                 function navigateToCategory(page) {
+                    console.log(page);
+                    // e.preventDefault();
                     // Construct the URL for navigation
                     const baseUrl = window.location.origin; // Gets the current domain, e.g., "https://example.com"
-                    const url = `${baseUrl}/${page}`;
+                    const url = `${baseUrl}/PHP/Book Sharing Web/books.php?page=${page}`;
 
                     // Navigate to the constructed URL
                     window.location.href = url;
                 }
-            </script> -->
+            </script>
         </div>
     </section>
     <div>
